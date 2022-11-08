@@ -20,9 +20,9 @@ body {
     background-position: center;
     background-size: cover;
     z-index: -10;
-  }
+}
 
-#gameText {
+#game-text {
     margin-top: 1em;
     font-size: 85px;
     text-align: center;
@@ -53,7 +53,7 @@ body {
     border-radius: 50%;
     margin: 0 auto;
     display: inline-block;
-    
+
 }
 
 #water-box {
@@ -120,10 +120,10 @@ body {
 
 .buttons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     padding: 15px;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .elements {
@@ -137,39 +137,67 @@ body {
 
 
 #resetBtn {
-    border: 3px solid white;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 5px;
+    border: 2px solid white;
     font-size: 25px;
     font-family: Mogra, sans-serif;
     background-color: #FA9427;
     color: white;
-}
-
-.allBtns {
     height: 65px;
     width: 180px;
+    margin-right: 20px;
+    margin-left: 140px;
 }
 
+#helpBtn {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: Mogra, sans-serif;
+    background-color: white;
+    color: #FA9427;
+    height: 45px;
+    width: 105px;
+}
+
+
 button:hover {
-    border: 3px solid #FA9427;
+    border: 2px solid #FA9427;
     border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.30);
 }
 
 button:focus {
-    border: 3px solid #FA9427;
+    border: 2px solid #FA9427;
     border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.45);
 }
 
 #resetBtn:hover {
-     background-color: #3D3D3D;
+    background-color: #3D3D3D;
 }
 
-.scorearea {
+#helpBtn:hover {
+    background-color: #3D3D3D;
+}
+
+.result-area {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    height: 100px;
+    width: 100%;
+}
+
+.score-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 40px;
 }
 
 .score {
@@ -193,4 +221,90 @@ button:focus {
     align-items: center;
     margin-top: 5px;
     color: #FA9427;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    font-size: 35px;
+    color: white;
+    margin: 0px;
+    padding: 40px;
+}
+
+footer a:hover {
+    color: #FA9427;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    position: relative;
+    top: 20px;
+}
+
+/* Media queries */
+
+/* max-width 710px */
+@media screen and (max-width: 710px) {
+    .score-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .score {
+        font-size: 35px;
+        padding: 10px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    #resetBtn {
+        padding: 5px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #helpBtn {
+        margin-top: 30px;
+    }
+
+    .elements {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .game-container {
+        margin: 20px;
+    }
+
+    .img-container {
+        margin-top: 20px;
+    }
+
+}
+
+/* max-width 360px */
+@media screen and (max-width: 360px) {
+    #game-text {
+        margin-top: 20px;
+    }
 }

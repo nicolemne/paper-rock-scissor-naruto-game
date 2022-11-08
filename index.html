@@ -20,11 +20,12 @@
     <div class="main-container">
 
         <!-- Text that updates which player won -->
-        <h1 id="gameText">PAPER, ROCK, SCISSOR, LIZARD, Spock
+        <h1 id="game-text">PAPER, ROCK, SCISSOR, LIZARD, Spock
             <br>
             <span id="naruto-text">NARUTO</span> STYLE!
         </h1>
 
+        <!-- Buttons to play the game -->
         <div id="game-container">
             <div class="img-container">
                 <div id="water-box">
@@ -63,13 +64,22 @@
             </div>
         </div>
 
+        <div class="result-area">
+            <span id="user-results"></span>
+        </div>
+
         <!-- Button to reset game -->
         <div class="buttons">
-            <button id="resetBtn" class="allBtns">Reset Score</button>
+            <div>
+                <button id="resetBtn" class="allBtns">Reset Score</button>
+            </div>
+            <div>
+                <button id="helpBtn" class="allBtns">How to Play</button>
+            </div>
         </div>
 
         <!-- Player score -->
-        <div class="scorearea">
+        <div class="score-area">
             <p class="score">
                 Your Score
                 <br>
@@ -82,19 +92,21 @@
                 <span id="ai-score">0</span>
             </p>
         </div>
-    </div>
 
-    <footer>
-        <div class="links">
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </div>
-    </footer>
+        <footer>
+            <div class="links">
+                <a href="https://github.com/nicolemne" target="_blank" rel="noopener"
+                aria-label="Visit my GitHub page (opens in a new tab)"><p><i class="fa-brands fa-github"></i></p>
+                <a href="https://www.linkedin.com/in/nicole-mcnulty-engstr%C3%B6m-04b004251/" target="_blank" rel="noopener"
+                aria-label="Visit my LinkedIn page (opens in a new tab)"><p><i class="fa-brands fa-linkedin"></i></p>
+            </div>
+        </footer>
 
-    <!-- Javascript -->
-    <script src="assets/js/script.js"></script>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/d62ba250c9.js" crossorigin="anonymous"></script>
+
+        <!-- Javascript -->
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>
