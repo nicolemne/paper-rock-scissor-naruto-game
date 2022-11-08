@@ -122,10 +122,7 @@ function winCombos(playerChoice, computerChoice) {
     } else if (playerChoice === computerChoice) {
         result.innerHTML = "TIE!"
         updateScore();
-    } else {
-        result.innerHTML = "Starting New Game"
-        updateScore();
-    } 
+    }
 };
 
 function restartScores() {
@@ -137,7 +134,7 @@ function restartScores() {
   }
 
 function helpAlert() {
-    alert("Hi, welcome to my game! ◆ This game is just like Rock, Paper, Scissor, Lizard Spock, but with new names. Water beats fire and rock. Fire beats wind and lightning. Wind beats earth and water. Earth beats fire and lightning. And finally, lightning beats wind and water. ◆ Hope you enjoy the game!");
+    alert("Hi, welcome to my game! ◆ This game is just like Rock, Paper, Scissor, Lizard, Spock, but with new names. Water beats fire and rock. Fire beats wind and lightning. Wind beats earth and water. Earth beats fire and lightning. And finally, lightning beats wind and water. ◆ Hope you enjoy the game!");
 }
 
 resetBtn.addEventListener('click', function() {
