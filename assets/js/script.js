@@ -9,6 +9,7 @@ const fire = document.getElementById('fire');
 const wind = document.getElementById('wind');
 const earth = document.getElementById('earth');
 const lightning = document.getElementById('lightning');
+const resetBtn = document.getElementById('resetBtn');
 
 const allButtons = document.getElementsByClassName('allBtns');
 
@@ -117,11 +118,26 @@ function winCombos(playerChoice, computerChoice) {
         result.innerHTML = "You Lost! Wind beats Water";
         aiScore++;
         updateScore();
-    } else {
+    } else if (playerChoice === computerChoice) {
         result.innerHTML = "TIE!"
+        updateScore();
+    } else {
+        result.innerHTML = "Starting New Game"
         updateScore();
     } 
 };
+
+function restartScores() {
+    playerScore = 0;
+    aiScore = 0;
+    playerScore.innerHTML = playerScore;
+    aiScore.innerHTML = aiScore;
+    newGame();
+  }
+
+resetBtn.addEventListener('click', function() {
+    restartScores('resetBtn');
+});
 
 water.addEventListener('click', function() {
     newGame('water');
