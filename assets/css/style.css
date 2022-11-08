@@ -123,7 +123,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .elements {
@@ -146,20 +146,23 @@ body {
     color: white;
     height: 65px;
     width: 180px;
-    margin-right: 20px;
-    margin-left: 140px;
+}
+
+.help {
 }
 
 #helpBtn {
-    border: 2px solid white;
+    border: 2px solid #FA9427;
     border-radius: 10px;
     padding: 5px;
     font-size: 15px;
     font-family: Mogra, sans-serif;
-    background-color: white;
-    color: #FA9427;
-    height: 45px;
+    background-color: black;
+    color: white;
+    height: 40px;
     width: 105px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 
@@ -197,7 +200,7 @@ button:focus {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .score {

@@ -110,6 +110,8 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 ## Technologies Used
 
 https://www.remove.bg/
+https://rgbacolorpicker.com/
+https://coolors.co/
 
 ### Languages Used
 
@@ -151,7 +153,12 @@ Place instructions on how to fork your project here.
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+If you wish to clone my project, please see the following steps below:
+
+Navigate to Github: https://github.com/nicolemne/project-portfolio-2
+Select the 'Clone' button
+Copy the url or download as ZIP file
+Use git clone + the url in your terminal, or unpack the ZIP containing the project
 
 ## Testing
 
@@ -163,11 +170,28 @@ Place instructions on how to clone your project here.
 
 ### W3C CSS Validator
 
+### Known bugs
+
+No known bugs detected
+
+### Solved Bugs
+
+I've encountered several bugs on the journey of making this website, and most of them I've corrected by seeking help online or from my mentor Mitko. 
+
+Some bugs I've encountered and fixed: 
+
++ Background Image
+  + Description: Background image placement
+  + Expected behaviour: Cover full screen
+  + Actual behaviour: Not showing up
+  + Fix: background-position: center; and background-size: cover;
 
 ## Credits
 
 https://www.geeksforgeeks.org/how-to-create-a-transparent-button-using-html-and-css/
 https://coder-coder.com/z-index-isnt-working/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://www.w3schools.com/howto/howto_css_overlay.asp
 
 ### Code Used
 
