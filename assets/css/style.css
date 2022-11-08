@@ -9,12 +9,17 @@ body,
 html {
     text-transform: uppercase;
     font-family: Mogra, sans-serif;
+    color: #7DC9D4;
 }
 
 #gameText {
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 85px;
     text-align: center;
+}
+
+#naruto-text {
+    color: #FA9427;
 }
 
 .maincontainer {
@@ -24,37 +29,87 @@ html {
     flex-direction: column;
 }
 
-#gamearea {
-    width: 450px;
+.img-div {
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-div > img {
+    width: 350px;
+    height: auto;
+}
+
+#game-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.gamebtn {
+    line-height: 0;
+    margin-bottom: 5px;
 }
 
 .buttons {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 20px;
-    margin-top: 60px;
+    padding: 15px;
+    margin-top: 90px;
 }
 
+button {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+
+img {
+    width: 174px;
+    height: auto;
+    overflow: hidden;
+    z-index: -10;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    color: #FA9427;
+}
+
+
 #resetBtn {
-    border: 3px solid;
-    border-radius: 8px;
-    padding: 10px;
-    margin-right: 30px;
-    font-size: 17px;
+    border: 5px solid #3D3D3D;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 25px;
     font-family: Mogra, sans-serif;
+    background-color: #FA9427;
+    color: white;
 }
 
 .allBtns {
-    height: 50px;
-    width: 80px;
+    height: 65px;
+    width: 180px;
+}
+
+button:hover {
+    border: 2px solid #FA9427;
+    border-radius: 50%;
+}
+
+button:focus {
+    border: 2px solid #FA9427;
+    border-radius: 50%;
 }
 
 #resetBtn:hover {
-    
+     background-color: #3D3D3D;
 }
 
 .scorearea {
@@ -76,6 +131,7 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: 5px;
+    color: #FA9427;
 }
 
 #ai-score {
@@ -83,4 +139,5 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: 5px;
+    color: #FA9427;
 }

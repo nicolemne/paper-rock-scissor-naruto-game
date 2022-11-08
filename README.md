@@ -60,7 +60,9 @@ Add your user stories here. You want to include first time visitors and returnin
 
 ### Colour Scheme
 
+I decided to go with colours that represent Naruto, and the best way to generate them was to take samples from the [Naruto's Official Website.](https://naruto-official.com/en) See swatches below. 
 
+![Swatches](assets/readme/color-palette.png)
 
 ### Typography
 
@@ -71,6 +73,8 @@ I've picked the font 'Mogra' from Google Fonts, which I think has a close resemb
 ### Imagery
 
 Use this section to explain what sort of imagery you plan to use through your site.
+
+https://clan-wars.fandom.com/wiki/Clan_wars_Wiki
 
 ### Wireframes
 

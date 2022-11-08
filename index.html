@@ -22,14 +22,50 @@
         <!-- Text that updates which player won -->
         <h1 id="gameText">PAPER, ROCK, SCISSOR, LIZARD, Spock
             <br>
-            NARUTO STYLE!
+            <span id="naruto-text">NARUTO</span> STYLE!
         </h1>
 
-        <div id="gamearea"></div>
+        <!-- Image -->
+        <div class="img-div">
+            <img src="assets/images/konoha-img.png" alt="Konoha Emblem">
+        </div>
+
+        <div id="game-container">
+            <div>
+                <button data-type="water" class="gamebtn" id="water"><img src="assets/images/water.png"
+                        alt="Water"></button>
+                <br>
+                <p class="elements">Water</p>
+            </div>
+            <div>
+                <button data-type="fire" class="gamebtn" id="fire"><img src="assets/images/fire.png"
+                        alt="Fire"></button>
+                <br>
+                <p class="elements">Fire</p>
+            </div>
+            <div>
+                <button data-type="wind" class="gamebtn" id="wind"><img src="assets/images/wind.png"
+                        alt="Wind"></button>
+                <br>
+                <p class="elements">Wind</p>
+            </div>
+            <div>
+                <button data-type="earth" class="gamebtn" id="earth"><img src="assets/images/earth.png"
+                        alt="Earth"></button>
+                <br>
+                <p class="elements">Earth</p>
+            </div>
+            <div>
+                <button data-type="lightning" class="gamebtn" id="lightning"><img src="assets/images/lightning.png"
+                        alt="Lightning"></button>
+                <br>
+                <p class="elements">Lightning</p>
+            </div>
+        </div>
 
         <!-- Button to reset game -->
         <div class="buttons">
-            <button id="resetBtn" class="allBtns">Reset</button>
+            <button id="resetBtn" class="allBtns">Reset Score</button>
         </div>
 
         <!-- Player score -->
