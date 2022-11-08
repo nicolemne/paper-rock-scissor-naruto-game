@@ -166,9 +166,8 @@ Place instructions on how to clone your project here.
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
+https://www.geeksforgeeks.org/how-to-create-a-transparent-button-using-html-and-css/
+https://coder-coder.com/z-index-isnt-working/
 
 ### Code Used
 
