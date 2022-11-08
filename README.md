@@ -186,11 +186,17 @@ Some bugs I've encountered and fixed:
   + Actual behaviour: Not showing up
   + Fix: background-position: center; and background-size: cover;
 
-  + Script not running
++ Script not running
   + Description: Javascript not working
   + Expected behaviour: Run in browser to play game
   + Actual behaviour: Nothing happening
-  + Fix: 
+  + Fix: Correct variable names that was written wrong
+
++ Wrong game message
+  + Description: "Starting New Game" randomly appearing
+  + Expected behaviour: Only shown when resetting scores
+  + Actual behaviour: Randomly appearing in the game message announcer
+  + Fix: Set correct name of variable in winCombos
 
 ## Credits
 

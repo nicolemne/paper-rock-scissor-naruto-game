@@ -1,4 +1,4 @@
-// Variables from the DOM
+// DOM variables
 let playerScore = 0;
 let aiScore = 0;
 let counter = 0;
@@ -43,7 +43,7 @@ function winCombos(playerChoice, computerChoice) {
         result.innerHTML = "You WIN! Water beats Fire";
         playerScore++;
         updateScore();
-    } else if (playerChoice === 'water' && computerChoice === 'rock') {
+    } else if (playerChoice === 'water' && computerChoice === 'earth') {
         result.innerHTML = "You WIN! Water beats Rock";
         playerScore++;
         updateScore();
@@ -83,8 +83,8 @@ function winCombos(playerChoice, computerChoice) {
         result.innerHTML = "You Lost! Water beats Fire";
         aiScore++;
         updateScore();
-    } else if (playerChoice === 'rock' && computerChoice === 'water') {
-        result.innerHTML = "You Lost! Water beats Rock";
+    } else if (playerChoice === 'earth' && computerChoice === 'water') {
+        result.innerHTML = "You Lost! Water beats Earth";
         aiScore++;
         updateScore();
     } else if (playerChoice === 'wind' && computerChoice === 'fire') {
@@ -122,7 +122,11 @@ function winCombos(playerChoice, computerChoice) {
     } else if (playerChoice === computerChoice) {
         result.innerHTML = "TIE!"
         updateScore();
-    }
+    } else {
+        result.innerHTML = "Starting New Game"
+        updateScore();
+        console.log(`${playerChoice} ${computerChoice}`)
+    } 
 };
 
 function restartScores() {
