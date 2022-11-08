@@ -28,17 +28,17 @@ function newGame(playerChoice) {
 
 // Update scores function
 
-const updateScore = () => {
-    const updateUserScore = document.getElementById("player-score");
-    updateUserScore.innerHTML = playerScore;
-    const updateComputerScore = document.getElementById("computer-score");
-    updateComputerScore.innerHTML = aiScore;
-};
+function updateScore() {
+    let updateUserScore = document.getElementById('user-score');
+    updateUserScore.innerHTML = userScore;
+    let updateComputerScore = document.getElementById('computer-score');
+    updateComputerScore.innerHTML = computerScore;
+}
 
 
 // Combinations function
 
-function winCombos(player, aiPlayer) {
+function winCombos(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
         result.innerHTML = "TIE!"
         playerScore++;
