@@ -9,8 +9,9 @@ const fire = document.getElementById('fire');
 const wind = document.getElementById('wind');
 const earth = document.getElementById('earth');
 const lightning = document.getElementById('lightning');
-const resetBtn = document.getElementById('resetBtn');
 
+const resetBtn = document.getElementById('resetBtn');
+const helpBtn = document.getElementById('helpBtn');
 const allButtons = document.getElementsByClassName('allBtns');
 
 const result = document.getElementById('game-text');
@@ -135,8 +136,16 @@ function restartScores() {
     newGame();
   }
 
+function helpAlert() {
+    alert("Hi, welcome to my game! ◆ This game is just like Rock, Paper, Scissor, Lizard Spock, but with new names. Water beats fire and rock. Fire beats wind and lightning. Wind beats earth and water. Earth beats fire and lightning. And finally, lightning beats wind and water. ◆ Hope you enjoy the game!");
+}
+
 resetBtn.addEventListener('click', function() {
     restartScores('resetBtn');
+});
+
+helpBtn.addEventListener('click', function() {
+    helpAlert('helpBtn');
 });
 
 water.addEventListener('click', function() {
