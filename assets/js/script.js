@@ -1,7 +1,8 @@
 // Variables from the DOM
-
 let playerScore = 0;
 let aiScore = 0;
+let counter = 0;
+let attemptCount = 0;
 
 const water = document.getElementById('water');
 const fire = document.getElementById('fire');
@@ -9,42 +10,34 @@ const wind = document.getElementById('wind');
 const earth = document.getElementById('earth');
 const lightning = document.getElementById('lightning');
 
+const allButtons = document.getElementsByClassName('allBtns');
+
 const result = document.getElementById('game-text');
 const options = ['water', 'fire', 'wind', 'earth', 'lightning'];
 
 // AI (Computer) random pick 
-
 function computerRandom() {
     let randomChoice = Math.floor(Math.random() * 5);
     return options[randomChoice];
 }
 
 // Game function
-
 function newGame(playerChoice) {
     let computerChoice = computerRandom();
-    displayResult(playerChoice, computerChoice);
+    winCombos(playerChoice, computerChoice);
 }
 
 // Update scores function
-
 function updateScore() {
-    let updateUserScore = document.getElementById('user-score');
-    updateUserScore.innerHTML = userScore;
-    let updateComputerScore = document.getElementById('computer-score');
-    updateComputerScore.innerHTML = computerScore;
+    let updateplayerScore = document.getElementById('player-score');
+    updateplayerScore.innerHTML = playerScore;
+    let updateComputerScore = document.getElementById('ai-score');
+    updateComputerScore.innerHTML = aiScore;
 }
 
-
 // Combinations function
-
-function winCombos(playerChoice, computerChoice) {
-    if (playerChoice === computerChoice) {
-        result.innerHTML = "TIE!"
-        playerScore++;
-        aiScore++;
-        updateScore();
-    } else if (playerChoice === 'water' && computerChoice === 'fire') {
+function winCombos(playerChoice, computerChoice) {    
+    if (playerChoice === 'water' && computerChoice === 'fire') {
         result.innerHTML = "You WIN! Water beats Fire";
         playerScore++;
         updateScore();
@@ -124,5 +117,28 @@ function winCombos(playerChoice, computerChoice) {
         result.innerHTML = "You Lost! Wind beats Water";
         aiScore++;
         updateScore();
-}
+    } else {
+        result.innerHTML = "TIE!"
+        updateScore();
+    } 
 };
+
+water.addEventListener('click', function() {
+    newGame('water');
+});
+
+fire.addEventListener('click', function() {
+    newGame('fire');
+});
+
+wind.addEventListener('click', function() {
+    newGame('wind');
+});
+
+earth.addEventListener('click', function() {
+    newGame('earth');
+});
+
+lightning.addEventListener('click', function() {
+    newGame('lightning');
+});

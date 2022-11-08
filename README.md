@@ -186,6 +186,12 @@ Some bugs I've encountered and fixed:
   + Actual behaviour: Not showing up
   + Fix: background-position: center; and background-size: cover;
 
+  + Script not running
+  + Description: Javascript not working
+  + Expected behaviour: Run in browser to play game
+  + Actual behaviour: Nothing happening
+  + Fix: 
+
 ## Credits
 
 https://www.geeksforgeeks.org/how-to-create-a-transparent-button-using-html-and-css/
