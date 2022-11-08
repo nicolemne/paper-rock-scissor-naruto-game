@@ -44,7 +44,7 @@ function winCombos(playerChoice, computerChoice) {
         playerScore++;
         updateScore();
     } else if (playerChoice === 'water' && computerChoice === 'earth') {
-        result.innerHTML = "You WIN! Water beats Rock";
+        result.innerHTML = "You WIN! Water beats Earth";
         playerScore++;
         updateScore();
     } else if (playerChoice === 'fire' && computerChoice === 'wind') {
@@ -125,7 +125,6 @@ function winCombos(playerChoice, computerChoice) {
     } else {
         result.innerHTML = "Starting New Game"
         updateScore();
-        console.log(`${playerChoice} ${computerChoice}`)
     } 
 };
 

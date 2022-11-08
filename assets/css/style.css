@@ -139,10 +139,10 @@ body {
 #resetBtn {
     border-radius: 10px;
     padding: 5px;
-    border: 2px solid white;
+    border: 2px solid #FA9427;
     font-size: 25px;
     font-family: Mogra, sans-serif;
-    background-color: #FA9427;
+    background-color: black;
     color: white;
     height: 65px;
     width: 180px;
@@ -176,11 +176,13 @@ button:focus {
 }
 
 #resetBtn:hover {
-    background-color: #3D3D3D;
+    background-color: white;
+    color: black;
 }
 
 #helpBtn:hover {
-    background-color: #3D3D3D;
+    background-color: white;
+    color: black;
 }
 
 .result-area {

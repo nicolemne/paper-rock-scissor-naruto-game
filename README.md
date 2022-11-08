@@ -145,8 +145,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
 
 Place instructions on how to fork your project here.
@@ -200,26 +198,33 @@ Some bugs I've encountered and fixed:
 
 ## Credits
 
-https://www.geeksforgeeks.org/how-to-create-a-transparent-button-using-html-and-css/
-https://coder-coder.com/z-index-isnt-working/
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-https://www.w3schools.com/howto/howto_css_overlay.asp
-
 ### Code Used
 
+[Transparent Button](https://www.geeksforgeeks.org/how-to-create-a-transparent-button-using-html-and-css/)
+
+[Z-index not working](https://coder-coder.com/z-index-isnt-working/)
+
+[Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+[JavaScript Alert](https://www.w3schools.com/jsref/met_win_alert.asp)
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+I have written all content on this website. 
+
+I have had a little bit of inspiration from the Love maths project, as well as [Carinaa](https://carinaaj.github.io/p2-rock-paper-scissors/) and [Emelie.](https://emeliehansson.github.io/milestone-pp2-rock-paper-scissor/)
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+The images of the water, fire, wind, rock, lightning and water was borrowed from [Naruto Fandom Wiki.](https://naruto-mighty-official.fandom.com/wiki/Naruto_Mighty_Official_Wikia)
+
+The background image was borrowed from [Alpha Coders (Wallpapers).](https://wall.alphacoders.com/big.php?i=1010788)
   
 ###  Acknowledgments
 
 I would like to thank and acknowledge the following people, who has showed invaluable support throughout my second project:
 
 - Dan Ford, boyfriend and biggest supporter.
-- Mitko Bachvarov, my mentor at Code Institute. 
+- Mitko Bachvarov, my mentor at Code Institute, for the outstanding help and support with my project. 
+- Emelie, fellow student at Code Institute, whom I've also had great support from.
 - Kera Cudmore, for this README template.
