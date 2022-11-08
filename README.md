@@ -1,14 +1,12 @@
-# PROJECT NAME TO GO HERE
+# PAPER ROCK SCISSORS LIZARD SPOCK - NARUTO STYLE
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
+more text here 
 
-Add a Blurb about the site here, what does it do, why did you build it?
+Originally I wanted to create a Tic-Tac-Toe website, but in the end I decided to go for a Rock, Paper, Scissor, Lizard, Spock game instead. Because I had already started working on the Tic-Tac-Toe site I re-used the structure for HTML and CSS from there, to this website, to save a little bit of time.
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
+[amiresponsive](https://ui.dev/amiresponsive) 
 
 Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
-
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
 ---
 
@@ -66,9 +64,9 @@ Add your user stories here. You want to include first time visitors and returnin
 
 ### Typography
 
-https://www.dafont.com/font-comment.php?file=ninja_naruto
-https://www.fontsquirrel.com/tools/webfont-generator
+I've picked the font 'Mogra' from Google Fonts, which I think has a close resemblance to the Naruto-font that is used in the show and Manga. Mogra is used on all text on this website.
 
+![Typography](assets/readme/google-font.png)
 
 ### Imagery
 
