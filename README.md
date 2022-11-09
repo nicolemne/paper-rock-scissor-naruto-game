@@ -62,7 +62,7 @@ Add your user stories here. You want to include first time visitors and returnin
 
 I decided to go with colours that represent Naruto, and the best way to generate them was to take samples from the [Naruto's Official Website.](https://naruto-official.com/en) See swatches below. 
 
-![Swatches](assets/readme/color-palette.png)
+![Swatches](assets/readme/color-palette(1).png)
 
 ### Typography
 
@@ -78,6 +78,9 @@ https://clan-wars.fandom.com/wiki/Clan_wars_Wiki
 
 ### Wireframes
 
+The wireframes was created using Balsamiq. I wanted to have a simple layout with the game buttons centered in the middle of the page, and the scores and reset button close to the center for easy view. The "How to Play" button is a little bit more discrete and I chose to have it in the upper left corner. 
+
+![Wireframes](../project-portfolio-2/assets/readme/wireframes.png)
 
 ## Features
 
@@ -93,61 +96,68 @@ I then like to add a screenshot of each page of the site here, i use [amirespons
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+I would like to add more code that works with the Local Storage, so that a scorearea will be displayed where you can keep track of your wins. If this was implemented, I would also add a function that tracks how many rounds you've played, and ends the game after a certain amount of runs.
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+I have tried my best to be mindful of accessibility, and the steps I've taken for this are the following:
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+- Aria labels to the social media links
+- Chose a good colour contrast throughout the website
+- Semantic HTML
 
 ## Technologies Used
 
-https://www.remove.bg/
-https://rgbacolorpicker.com/
-https://coolors.co/
+- https://www.remove.bg/
+- https://rgbacolorpicker.com/
+- https://coolors.co/
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+The languages I've used are HTML, CSS and JavaScript. 
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+- [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+- [Github](https://github.com/) - To save and store the files for the website.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+- [GitPod](https://gitpod.io/workspaces) - IDE used to create the site.
+
+- [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+- [Google Developer Tools](https://www.google.com/chrome/dev/) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+- [Favicon.io](https://favicon.io/) To create favicon.
+
+- [Am I Responsive?](https://ui.dev/amiresponsive?url=https://nicolemne.github.io/project-portfolio-2/) To show the website image on a range of devices.
+
+- [Webpage Spell-Check](https://chrome.google.com/webstore/detail/grammarly-grammar-checker/kbfnbcaeplbcioakkpcpgfkobkghlhen) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
 ## Deployment & Local Development
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
 ### Deployment
 
-### GitHub Pages
+#### GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository for project-portfolio-2](https://github.com/nicolemne/project-portfolio-2)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+3. In the side-bar menu, click "Pages" in the section "Code and automation".
+4. Under "Branch", click "Select branch" and pick "main". Save. 
+5. After a few minutes the site link has been published on the top of GitHub Pages.
+6. Click the [link](https://nicolemne.github.io/project-portfolio-2/) to see the live site.
 
 ### Local Development
 
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork my repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project [here](https://github.com/nicolemne/project-portfolio-2)
+3. Click the Fork button in the top right corner.
 
 #### How to Clone
 
