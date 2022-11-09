@@ -56,25 +56,39 @@ Add your user stories here. You want to include first time visitors and returnin
 
 ## Design
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
+### Finished site
+![Website](assets/readme/pp2-website.jpg)
 
 ### Colour Scheme
 
-I decided to go with colours that represent Naruto, and the best way to generate them was to take samples from the [Naruto's Official Website.](https://naruto-official.com/en) See swatches below. 
+I decided to go with colours that represent Naruto, and the best way to generate them was to take samples from the [Naruto's Official Website.](https://naruto-official.com/en)
 
-![Swatches](assets/readme/color-palette(1).png)
+![Swatches](assets/readme/color-palette%20(1).png)
 
 ### Typography
 
-I've picked the font 'Mogra' from Google Fonts, which I think has a close resemblance to the Naruto-font that is used in the show and Manga. Mogra is used on all text on this website.
+I've picked the font 'Mogra' from Google Fonts, which I think has a close resemblance to the Naruto-font that is used in the Anime series and Manga. Mogra is used on all text on this website.
 
 ![Typography](assets/readme/google-font.png)
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+I wanted to have a background image with Naruto (The main character of the Manga and Anime series 'Naruto'). I had to cut out the emblem displayed inside the original image using Paint, to have a full black background to have the elements on top of. 
 
-https://clan-wars.fandom.com/wiki/Clan_wars_Wiki
+### Original Background Image
+![Original](assets/readme/naruto-original.jpg)
+
+### Cropped Background Image
+![Cropped](assets/images/naruto.png)
+
+### Button Images
+The button images were borrrowed from a Naruto fan wiki-website, and in order to hide the white I decided to display the images with round buttons and borders
+
+![water](assets/readme/water.png)
+![fire](assets/readme/fire.png)
+![wind](assets/readme/wind.png)
+![earth](assets/readme/earth.png)
+![lightning](assets/readme/lightning.png)
 
 ### Wireframes
 
@@ -84,15 +98,39 @@ The wireframes was created using Balsamiq. I wanted to have a simple layout with
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+My website consists of only one page, and features the following: 
 
-This section can be used to explain what pages your site is made up of.
+## How to Play button that displays an alert
+![How-to-play](assets/readme/help-button.png)
 
-### General features on each page
+![Alert](assets/readme/alert.png)
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+### When you enter the website the first text will be a short line describing the game
+![Starting-game](assets/readme/header-text-1.png)
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+### 5 buttons to play
+![Game-buttons](assets/readme/buttons-color.png)
+
+### When you win a game, the text displays your win
+![Win](assets/readme/header-text-2.png)
+
+### Or, when you lose a game
+![Lose](assets/readme/header-text-3.png)
+
+### The text also changes when you reset your score and start a new game
+![New-game](assets/readme/header-text-4.png)
+
+### The website has a score area to keep track of your and computer wins
+![Scores](assets/readme/score-section.png)
+
+### A button to reset your and the computer score
+![Scores](assets/readme/reset-score.png)
+
+### Links to my GitHub and LinkedIn
+![Scores](assets/readme/links.png)
+
+### Finished site
+![Website](assets/readme/pp2-website.jpg)
 
 ### Future Implementations
 
@@ -178,8 +216,13 @@ My website has been Lighthouse tested, please see score in image below.
 
 ### W3C HTML Validator
 
+I've run the page in the [W3C Markup Validation Service](https://validator.w3.org/) and no errors were found.
+![W3C HTML](../project-portfolio-2/assets/readme/w3c-html.png) 
 
 ### W3C CSS Validator
+
+I've run the page in the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and no errors were found.
+![W3C CSS](../project-portfolio-2/assets/readme/w3c-css.png) 
 
 ### Known bugs
 
