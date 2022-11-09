@@ -1,12 +1,14 @@
 # PAPER ROCK SCISSORS LIZARD SPOCK - NARUTO STYLE
 
-more text here 
+Naruto - Rock, Paper, Scissor, Lizard, Spock, is a simple, but extended version of Rock, Paper, Scissor. Much like the name suggests, it is just like the Rock, Paper, Scissor with the addition of Lizard and Spock, but all names has been exchanged to Water, Fire, Wind, Earth and Lightning. 
+
+The game is played by clicking one of the buttons in the middle of the page, the computer will then pick a choice for itself, and a result will be displayed. You can either win, tie or lose a round. The scores will be shown in the score area below the buttons. The game will continue for as long as the user chooses to.
 
 Originally I wanted to create a Tic-Tac-Toe website, but in the end I decided to go for a Rock, Paper, Scissor, Lizard, Spock game instead. Because I had already started working on the Tic-Tac-Toe site I re-used the structure for HTML and CSS from there, to this website, to save a little bit of time.
 
-[amiresponsive](https://ui.dev/amiresponsive) 
+![amiresponsive](assets/readme/amiresponsive.png)
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+View live site [here](https://nicolemne.github.io/project-portfolio-2/)
 
 ---
 
@@ -48,11 +50,19 @@ Add a link to the live site here, for Milestone 1 this will be the GitHub Pages 
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
-
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+#### Client goals visitors
+
+To be able to view the site and play the game on a range of device sizes.
+
+#### First time visitors 
+
+I would like a first time visitor to be curious to test out the game and hopefully have a good time doing so. I'd like to think that a first time visitor would think that the design and color scheme is sleek and fun, especially if the visitor is a fan of the Naruto manga or anime series. My goal here is also for the user to enjoy a simple game with a Naruto design and gameplay, and perhaps even recommend it to a friend.
+
+#### Returning visitors 
+
+My hope is that the first time user will enjoy the game enough to want to return and play again. 
 
 ## Design
 
@@ -75,13 +85,13 @@ I've picked the font 'Mogra' from Google Fonts, which I think has a close resemb
 
 I wanted to have a background image with Naruto (The main character of the Manga and Anime series 'Naruto'). I had to cut out the emblem displayed inside the original image using Paint, to have a full black background to have the elements on top of. 
 
-### Original Background Image
+#### Original Background Image
 ![Original](assets/readme/naruto-original.jpg)
 
-### Cropped Background Image
+#### Cropped Background Image
 ![Cropped](assets/images/naruto.png)
 
-### Button Images
+#### Button Images
 The button images were borrrowed from a Naruto fan wiki-website, and in order to hide the white I decided to display the images with round buttons and borders
 
 ![water](assets/readme/water.png)
@@ -100,36 +110,36 @@ The wireframes was created using Balsamiq. I wanted to have a simple layout with
 
 My website consists of only one page, and features the following: 
 
-## How to Play button that displays an alert
+### How to Play button that displays an alert
 ![How-to-play](assets/readme/help-button.png)
 
 ![Alert](assets/readme/alert.png)
 
-### When you enter the website the first text will be a short line describing the game
+#### When you enter the website the first text will be a short line describing the game
 ![Starting-game](assets/readme/header-text-1.png)
 
-### 5 buttons to play
+#### 5 buttons to play
 ![Game-buttons](assets/readme/buttons-color.png)
 
-### When you win a game, the text displays your win
+#### When you win a game, the text displays your win
 ![Win](assets/readme/header-text-2.png)
 
-### Or, when you lose a game
+#### Or, when you lose a game
 ![Lose](assets/readme/header-text-3.png)
 
-### The text also changes when you reset your score and start a new game
+#### The text also changes when you reset your score and start a new game
 ![New-game](assets/readme/header-text-4.png)
 
-### The website has a score area to keep track of your and computer wins
+#### The website has a score area to keep track of your and computer wins
 ![Scores](assets/readme/score-section.png)
 
-### A button to reset your and the computer score
+#### A button to reset your and the computer score
 ![Scores](assets/readme/reset-score.png)
 
-### Links to my GitHub and LinkedIn
+#### Links to my GitHub and LinkedIn
 ![Scores](assets/readme/links.png)
 
-### Finished site
+#### Finished site
 ![Website](assets/readme/pp2-website.jpg)
 
 ### Future Implementations
