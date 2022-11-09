@@ -269,6 +269,36 @@ footer {
 
 /* Media queries */
 
+/* max-width 1000px */
+@media screen and (max-width: 1000px) {
+
+    .score-area {
+        margin-top: 4em;
+    }
+    
+    .score {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    
+    .playerscore-text {
+        margin-right: 5em;
+        margin-left: 0px;
+    }
+    
+    .computer-score {
+        margin-left: 0px;
+    }
+}
+
+/* max-width 790px */
+@media screen and (max-width: 790px) {
+
+    .elements {
+        margin-top: 0px;
+    }
+}
+
 /* max-width 710px */
 @media screen and (max-width: 710px) {
     .score-area {
@@ -311,7 +341,7 @@ footer {
         margin-bottom: 25px;
     }
 
-    .game-container {
+    #game-container {
         margin: 20px;
     }
 
@@ -325,18 +355,29 @@ footer {
 
 }
 
-/* max-width 550px */
-@media screen and (max-width: 550px) {
-    #game-container {
-      
+/* max-width 570px */
+@media screen and (max-width: 570px) {
+    #game-text {
+        font-size: 65px;
+        margin-bottom: 10px;
     }
 }
 
-/* max-width 370px */
-@media screen and (max-width: 370px) {
+/* max-width 555px */
+@media screen and (max-width: 555px) {
+    .img-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    #game-container {
+        margin: 0px;
+        margin-top: 0;
+
+    }
+
     #game-text {
-        margin-top: 40px;
-        font-size: 65px;
+        font-size: 45px;
         margin-bottom: 10px;
     }
 }

@@ -293,7 +293,7 @@ The background image was borrowed from [Alpha Coders (Wallpapers).](https://wall
 I would like to thank and acknowledge the following people, who has showed invaluable support throughout my second project:
 
 - Dan Ford, boyfriend and biggest supporter.
-- Mitko Bachvarov, my mentor at Code Institute, for the help and support with my project. 
-- Joseph Doble, for always helping me out with my questions, and providing great explanations and help.
+- Mitko Bachvarov, my mentor at Code Institute, for the great help and support with my project. 
+- Joseph Doble, for providing easy to understand explanations and help with my questions.
 - Emelie, fellow student at Code Institute, whom I've also had great support from.
 - Kera Cudmore, for this README template.
