@@ -123,7 +123,7 @@ function winCombos(playerChoice, computerChoice) {
         result.innerHTML = "TIE!"
         updateScore();
     } else {
-        result.innerHTML = "Starting New Game"
+        result.innerHTML = "Starting New Game..."
         updateScore();
     } 
 };
