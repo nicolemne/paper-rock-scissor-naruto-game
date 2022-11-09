@@ -325,10 +325,17 @@ footer {
 
 }
 
+/* max-width 550px */
+@media screen and (max-width: 550px) {
+    #game-container {
+      
+    }
+}
+
 /* max-width 370px */
 @media screen and (max-width: 370px) {
     #game-text {
-        margin-top: 20px;
+        margin-top: 40px;
         font-size: 65px;
         margin-bottom: 10px;
     }
