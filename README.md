@@ -104,7 +104,7 @@ The button images were borrowed from a Naruto fan wiki website, and to hide the 
 
 The wireframes were created using Balsamiq. I wanted to have a simple layout with the game buttons centred in the middle of the page, and the scores and reset button close to the centre for easy view. The "How to Play" button is a little bit more discrete and I chose to have it in the upper left corner. 
 
-![Wireframes](../project-portfolio-2/assets/readme/wireframes.png)
+![Wireframes](assets/readme/wireframes.png)
 
 ## Features
 
@@ -222,17 +222,17 @@ Use git clone + the URL in your terminal, or unpack the ZIP containing the proje
 
 My website has been Lighthouse tested, please see the score in the image below.
 
-![Lighthouse testing](../project-portfolio-2/assets/readme/lighthouse.png)
+![Lighthouse testing](assets/readme/lighthouse.png)
 
 ### W3C HTML Validator
 
 I've run the page in the [W3C Markup Validation Service](https://validator.w3.org/) and no errors were found.
-![W3C HTML](../project-portfolio-2/assets/readme/w3c-html.png) 
+![W3C HTML](assets/readme/w3c-html.png) 
 
 ### W3C CSS Validator
 
 I've run the page in the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and no errors were found.
-![W3C CSS](../project-portfolio-2/assets/readme/w3c-css.png) 
+![W3C CSS](assets/readme/w3c-css.png) 
 
 ### Known bugs
 
