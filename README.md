@@ -1,14 +1,14 @@
 # PAPER ROCK SCISSORS LIZARD SPOCK - NARUTO STYLE
 
-Naruto - Rock, Paper, Scissor, Lizard, Spock, is a simple, but extended version of Rock, Paper, Scissor. Much like the name suggests, it is just like the Rock, Paper, Scissor with the addition of Lizard and Spock, but all names has been exchanged to Water, Fire, Wind, Earth and Lightning. 
+Naruto - Rock, Paper, Scissor, Lizard, Spock, is a simple, but an extended version of Rock, Paper, Scissor. Much like the name suggests, it is just like the Rock, Paper, Scissor with the addition of Lizard and Spock, but all names have been exchanged to Water, Fire, Wind, Earth and Lightning. 
 
-The game is played by clicking one of the buttons in the middle of the page, the computer will then pick a choice for itself, and a result will be displayed. You can either win, tie or lose a round. The scores will be shown in the score area below the buttons. The game will continue for as long as the user chooses to.
+The game is played by clicking one of the buttons in the middle of the page, the computer will then pick a choice for itself, and a result will be displayed. You can either win, tie or lose a round. The scores will be shown in the scoring area below the buttons. The game will continue for as long as the user chooses to.
 
-Originally I wanted to create a Tic-Tac-Toe website, but in the end I decided to go for a Rock, Paper, Scissor, Lizard, Spock game instead. Because I had already started working on the Tic-Tac-Toe site I re-used the structure for HTML and CSS from there, to this website, to save a little bit of time.
+Originally I wanted to create a Tic-Tac-Toe website, but in the end, I decided to go for a Rock, Paper, Scissor, Lizard, Spock game instead. Because I had already started working on the Tic-Tac-Toe site I re-used the structure for HTML and CSS from there, to this website, to save a little bit of time.
 
 ![amiresponsive](assets/readme/amiresponsive.png)
 
-View live site [here](https://nicolemne.github.io/project-portfolio-2/)
+View the live site [here](https://nicolemne.github.io/project-portfolio-2/)
 
 ---
 
@@ -56,13 +56,13 @@ View live site [here](https://nicolemne.github.io/project-portfolio-2/)
 
 To be able to view the site and play the game on a range of device sizes.
 
-#### First time visitors 
+#### First-time visitors 
 
-I would like a first time visitor to be curious to test out the game and hopefully have a good time doing so. I'd like to think that a first time visitor would think that the design and color scheme is sleek and fun, especially if the visitor is a fan of the Naruto manga or anime series. My goal here is also for the user to enjoy a simple game with a Naruto design and gameplay, and perhaps even recommend it to a friend.
+I would like a first-time visitor to be curious to test out the game and hopefully have a good time doing so. I'd like to think that a first-time visitor would think that the design and colour scheme is sleek and fun, especially if the visitor is a fan of the Naruto manga or anime series. My goal here is also for the user to enjoy a simple game with a Naruto design and gameplay, and perhaps even recommend it to a friend.
 
 #### Returning visitors 
 
-My hope is that the first time user will enjoy the game enough to want to return and play again. 
+I hope that the first-time user will enjoy the game enough to want to return and play again. 
 
 ## Design
 
@@ -77,7 +77,7 @@ I decided to go with colours that represent Naruto, and the best way to generate
 
 ### Typography
 
-I've picked the font 'Mogra' from Google Fonts, which I think has a close resemblance to the Naruto-font that is used in the Anime series and Manga. Mogra is used on all text on this website.
+I've picked the font 'Mogra' from Google Fonts, which I think has a close resemblance to the Naruto font that is used in the Anime series and Manga. Mogra is used on all text on this website.
 
 ![Typography](assets/readme/google-font.png)
 
@@ -92,7 +92,7 @@ I wanted to have a background image with Naruto (The main character of the Manga
 ![Cropped](assets/images/naruto.png)
 
 #### Button Images
-The button images were borrrowed from a Naruto fan wiki-website, and in order to hide the white I decided to display the images with round buttons and borders
+The button images were borrowed from a Naruto fan wiki website, and to hide the white I decided to display the images with round buttons and borders
 
 ![water](assets/readme/water.png)
 ![fire](assets/readme/fire.png)
@@ -102,7 +102,7 @@ The button images were borrrowed from a Naruto fan wiki-website, and in order to
 
 ### Wireframes
 
-The wireframes was created using Balsamiq. I wanted to have a simple layout with the game buttons centered in the middle of the page, and the scores and reset button close to the center for easy view. The "How to Play" button is a little bit more discrete and I chose to have it in the upper left corner. 
+The wireframes were created using Balsamiq. I wanted to have a simple layout with the game buttons centred in the middle of the page, and the scores and reset button close to the centre for easy view. The "How to Play" button is a little bit more discrete and I chose to have it in the upper left corner. 
 
 ![Wireframes](../project-portfolio-2/assets/readme/wireframes.png)
 
@@ -130,10 +130,10 @@ My website consists of only one page, and features the following:
 #### The text also changes when you reset your score and start a new game
 ![New-game](assets/readme/header-text-4.png)
 
-#### The website has a score area to keep track of your and computer wins
+#### The website has a score area to keep track of your and your computer's wins
 ![Scores](assets/readme/score-section.png)
 
-#### A button to reset your and the computer score
+#### A button to reset your and the computer's score
 ![Scores](assets/readme/reset-score.png)
 
 #### Links to my GitHub and LinkedIn
@@ -144,7 +144,7 @@ My website consists of only one page, and features the following:
 
 ### Future Implementations
 
-I would like to add more code that works with the Local Storage, so that a scorearea will be displayed where you can keep track of your wins. If this was implemented, I would also add a function that tracks how many rounds you've played, and ends the game after a certain amount of runs.
+I would like to add more code that works with the Local Storage so that a score area will be displayed where you can keep track of your wins. If this was implemented, I would also add a function that tracks how many rounds you've played, and ends the game after a certain amount of runs.
 
 ### Accessibility
 
@@ -174,7 +174,7 @@ The languages I've used are HTML, CSS and JavaScript.
 
 - [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
-- [Google Developer Tools](https://www.google.com/chrome/dev/) - To troubleshoot and test features, solve issues with responsiveness and styling.
+- [Google Developer Tools](https://www.google.com/chrome/dev/) - To troubleshoot and test features, and solve issues with responsiveness and styling.
 
 - [Favicon.io](https://favicon.io/) To create favicon.
 
@@ -190,9 +190,9 @@ The languages I've used are HTML, CSS and JavaScript.
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository for project-portfolio-2](https://github.com/nicolemne/project-portfolio-2)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-3. In the side-bar menu, click "Pages" in the section "Code and automation".
+1. Login to GitHub and locate the [GitHub Repository for project-portfolio-2](https://github.com/nicolemne/project-portfolio-2)
+2. At the top of the Repository (not the top of the page), locate the "Settings" Button on the menu.
+3. In the sidebar menu, click "Pages" in the section "Code and automation".
 4. Under "Branch", click "Select branch" and pick "main". Save. 
 5. After a few minutes the site link has been published on the top of GitHub Pages.
 6. Click the [link](https://nicolemne.github.io/project-portfolio-2/) to see the live site.
@@ -203,7 +203,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 To fork my repository:
 
-1. Log in (or sign up) to Github.
+1. Login (or sign up) to GitHub.
 2. Go to the repository for this project [here](https://github.com/nicolemne/project-portfolio-2)
 3. Click the Fork button in the top right corner.
 
@@ -213,14 +213,14 @@ If you wish to clone my project, please see the following steps below:
 
 Navigate to Github: https://github.com/nicolemne/project-portfolio-2
 Select the 'Clone' button
-Copy the url or download as ZIP file
-Use git clone + the url in your terminal, or unpack the ZIP containing the project
+Copy the URL or download it as a ZIP file
+Use git clone + the URL in your terminal, or unpack the ZIP containing the project
 
 ## Testing
 
 ### Lighthouse
 
-My website has been Lighthouse tested, please see score in image below.
+My website has been Lighthouse tested, please see the score in the image below.
 
 ![Lighthouse testing](../project-portfolio-2/assets/readme/lighthouse.png)
 
@@ -236,7 +236,7 @@ I've run the page in the [W3C CSS Validation Service](https://jigsaw.w3.org/css-
 
 ### Known bugs
 
-Background image does not fill up screen when you start the game and the #game-text changes.
+The background image does not fill up the screen when you start the game and the #game-text changes.
 
 ### Solved Bugs
 
@@ -252,15 +252,15 @@ Some bugs I've encountered and fixed:
 
 + Script not running
   + Description: Javascript not working
-  + Expected behaviour: Run in browser to play game
+  + Expected behaviour: Run in the browser to play game
   + Actual behaviour: Nothing happening
-  + Fix: Correct variable names that was written wrong
+  + Fix: Correct variable names that were written wrong
 
 + Wrong game message
   + Description: "Starting New Game" randomly appearing
   + Expected behaviour: Only shown when resetting scores
   + Actual behaviour: Randomly appearing in the game message announcer
-  + Fix: Set correct name of variable in winCombos
+  + Fix: Set the correct name of the variable in winCombos
 
 ## Credits
 
@@ -278,22 +278,22 @@ Some bugs I've encountered and fixed:
 
 I have written all content on this website. 
 
-I have had a some inspiration from the Love maths project, as well as [Carinaa](https://carinaaj.github.io/p2-rock-paper-scissors/) and [Emelie.](https://emeliehansson.github.io/milestone-pp2-rock-paper-scissor/)
+I have had some inspiration from the Love maths project, as well as [Carinaa](https://carinaaj.github.io/p2-rock-paper-scissors/) and [Emelie.](https://emeliehansson.github.io/milestone-pp2-rock-paper-scissor/)
 
 ###  Media
 
 I do not own any rights to the images used on this website. Please see the links below to where they have been borrowed from.
 
-The images of the water, fire, wind, rock, lightning and water was borrowed from [Naruto Fandom Wiki.](https://naruto-mighty-official.fandom.com/wiki/Naruto_Mighty_Official_Wikia)
+The images of the water, fire, wind, rock, lightning and water were borrowed from [Naruto Fandom Wiki.](https://naruto-mighty-official.fandom.com/wiki/Naruto_Mighty_Official_Wikia)
 
 The background image was borrowed from [Alpha Coders (Wallpapers).](https://wall.alphacoders.com/big.php?i=1010788)
   
 ###  Acknowledgments
 
-I would like to thank and acknowledge the following people, who has showed invaluable support throughout my second project:
+I would like to thank and acknowledge the following people, who have shown invaluable support throughout my second project:
 
 - Dan Ford, boyfriend and biggest supporter.
 - Mitko Bachvarov, my mentor at Code Institute, for the great help and support with my project. 
-- Joseph Doble, for providing easy to understand explanations and help with my questions.
-- Emelie, fellow student at Code Institute, whom I've also had great support from.
+- Joseph Doble, for providing easy-to-understand explanations and help with my questions.
+- Emelie, a fellow student at Code Institute, whom I've also had great support from.
 - Kera Cudmore, for this README template.
