@@ -162,6 +162,9 @@ Use git clone + the url in your terminal, or unpack the ZIP containing the proje
 
 ### Lighthouse
 
+My website has been Lighthouse tested, please see score in image below.
+
+![Lighthouse testing](../project-portfolio-2/assets/readme/lighthouse.png)
 
 ### W3C HTML Validator
 
@@ -170,7 +173,7 @@ Use git clone + the url in your terminal, or unpack the ZIP containing the proje
 
 ### Known bugs
 
-No known bugs detected
+Background image does not fill up screen when you start the game and the #game-text changes.
 
 ### Solved Bugs
 
@@ -212,9 +215,11 @@ Some bugs I've encountered and fixed:
 
 I have written all content on this website. 
 
-I have had a little bit of inspiration from the Love maths project, as well as [Carinaa](https://carinaaj.github.io/p2-rock-paper-scissors/) and [Emelie.](https://emeliehansson.github.io/milestone-pp2-rock-paper-scissor/)
+I have had a some inspiration from the Love maths project, as well as [Carinaa](https://carinaaj.github.io/p2-rock-paper-scissors/) and [Emelie.](https://emeliehansson.github.io/milestone-pp2-rock-paper-scissor/)
 
 ###  Media
+
+I do not own any rights to the images used on this website. Please see the links below to where they have been borrowed from.
 
 The images of the water, fire, wind, rock, lightning and water was borrowed from [Naruto Fandom Wiki.](https://naruto-mighty-official.fandom.com/wiki/Naruto_Mighty_Official_Wikia)
 
