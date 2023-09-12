@@ -8,7 +8,7 @@ Originally I wanted to create a Tic-Tac-Toe website, but in the end, I decided t
 
 ![amiresponsive](assets/readme/amiresponsive.png)
 
-View the live site [here](https://nicolemne.github.io/project-portfolio-2/)
+View the live site [here](https://nicolemne.github.io/paper-rock-scissor-naruto-game/)
 
 ---
 
